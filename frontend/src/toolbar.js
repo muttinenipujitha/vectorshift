@@ -10,6 +10,7 @@ export const PipelineToolbar = () => {
         flexWrap: "wrap",
       }}
     >
+        
       <DraggableNode type="input" label="Input" />
       <DraggableNode type="llm" label="LLM" />
       <DraggableNode type="output" label="Output" />
