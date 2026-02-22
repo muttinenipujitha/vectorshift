@@ -79,7 +79,6 @@ export const PipelineUI = () => {
         selectable: true,
   draggable: true,
       };
-
       addNode(newNode);
     },
     [reactFlowInstance, getNodeID, addNode]
