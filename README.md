@@ -1,5 +1,5 @@
 
-# 🚀 VectorShift Frontend Technical Assessment
+# 🚀 VectorShift Frontend Technical 
 
 ## 📌 Overview
 
