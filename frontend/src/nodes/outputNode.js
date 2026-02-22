@@ -9,4 +9,5 @@ export const OutputNode = ({ id }) => (
       { type: "text", key: "name", placeholder: "Output Name" },
     ]}
   />
+  
 );
