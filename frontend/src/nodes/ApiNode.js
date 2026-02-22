@@ -7,6 +7,7 @@ export const ApiNode = ({ id }) => (
     inputs={[{ id: "in" }]}
     outputs={[{ id: "response" }]}
     fields={[
+        
       { type: "text", key: "url", placeholder: "https://api.com" },
     ]}
   />
