@@ -91,7 +91,6 @@ export const BaseNode = ({
       })}
 
       {children}
-
       {/* INPUT HANDLES */}
       {inputs.map((input, index) => (
         <Handle
