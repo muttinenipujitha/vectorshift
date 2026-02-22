@@ -7,7 +7,6 @@ export const TextNode = ({ id }) => {
   const [variables, setVariables] = useState([]);
   const textareaRef = useRef(null);
   const updateNodeField = useStore((s) => s.updateNodeField);
-
   useEffect(() => {
     const regex = /{{\s*([a-zA-Z_$][a-zA-Z0-9_$]*)\s*}}/g;
     const matches = [...text.matchAll(regex)];
